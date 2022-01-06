@@ -1,11 +1,17 @@
+
+/* Style of Body */
 body{
     font-family: 'Luxurious Roman', cursive;
     margin: 0;
 }
+
+/*Section1 is for all section of HTML code */
 .section1{
  display: flex;
  margin-bottom: 80px;
 }
+
+/*fit class is used to divide space for two div of a section*/
 .fit{
     width: 40%;
     float: left; 
@@ -16,6 +22,8 @@ body{
 .fit img{
     width: 100%;
 }
+
+/*This class is used for the text - Stay focused on Mission 2022*/
 .fit2{
     border-left: 5px solid;
     border-image: linear-gradient(180deg, lightsalmon, blue);
@@ -30,6 +38,8 @@ h2{
 span{
     color: orange;
 }
+
+/*btn class is used for desiging the link */
 .btn{
     text-decoration: none;
     background: linear-gradient(45deg, blue, red);
@@ -38,6 +48,8 @@ span{
     font-weight: 600;
     border-radius: 5px;
 }
+
+/*title is used for design the caption*/
 .title{
     display: flex;
     justify-content: center;
@@ -51,17 +63,18 @@ span{
 
 }
 
+/*It is used for div of a section*/
 .vision{
-    width: 25%;
-    height: 300px; 
-    padding-left: 3%;
-    padding-right: 3%;
-    margin-left: 0.5%;
-    float: left;
-  text-align: left;
-  border-radius: 5px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
-  cursor: default;
+width: 25%;
+height: 300px; 
+padding-left: 3%;
+padding-right: 3%;
+margin-left: 0.5%;
+float: left;
+text-align: left;
+border-radius: 5px;
+box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+cursor: default;
 }
 #b1{
 background-color: palegoldenrod;
@@ -73,11 +86,13 @@ background-color: papayawhip;
 background-color: powderblue;
 }
 
+/*It is used for a div of a section*/
 .content{
     padding-left: 3%;
     padding-right: 2%; 
 }
 
+/*It is for icon used within div*/
 .icon{
     height: 50px;
     width: 50px;
@@ -94,7 +109,8 @@ background-color: powderblue;
     
 }
 
-.miss{
+/*This is use for the mission section - captioned with 'My Mission in 2022'*/
+.mis_text{
     margin-left: 10px;
     padding-left: 5px;
     padding-right: 5px;
